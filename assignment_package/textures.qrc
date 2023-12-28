@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>textures/minecraft_textures_all.png</file>
+        <file>textures/noise_texture_128.png</file>
+        <file>textures/minecraft_normals_all.png</file>
+        <file>textures/water_normal.png</file>
+    </qresource>
+    <qresource prefix="/textures"/>
+</RCC>

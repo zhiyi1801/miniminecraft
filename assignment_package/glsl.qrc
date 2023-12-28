@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>glsl/lambert.frag.glsl</file>
+        <file>glsl/lambert.vert.glsl</file>
+        <file>glsl/flat.frag.glsl</file>
+        <file>glsl/flat.vert.glsl</file>
+        <file>glsl/instanced.vert.glsl</file>
+        <file>glsl/shadow/shadow_sample.frag.glsl</file>
+        <file>glsl/shadow/shadow_sample.vert.glsl</file>
+        <file>glsl/shadow/shadow_debug_quad.frag.glsl</file>
+        <file>glsl/shadow/shadow_debug_quad.vert.glsl</file>
+        <file>glsl/shadow/shadow_render.frag.glsl</file>
+        <file>glsl/shadow/shadow_render.vert.glsl</file>
+        <file>glsl/shadow/lambert_shadow.frag.glsl</file>
+        <file>glsl/shadow/lambert_shadow.vert.glsl</file>
+        <file>glsl/shadow/shadow_debug_viewer.frag.glsl</file>
+        <file>glsl/shadow/shadow_debug_viewer.vert.glsl</file>
+        <file>glsl/shadow/CSM/CSM_depth_gen.frag.glsl</file>
+        <file>glsl/shadow/CSM/CSM_depth_gen.geom.glsl</file>
+        <file>glsl/shadow/CSM/CSM_depth_gen.vert.glsl</file>
+        <file>glsl/shadow/CSM/CSM_debug_quad.frag.glsl</file>
+        <file>glsl/shadow/CSM/CSM_debug_quad.vert.glsl</file>
+        <file>glsl/shadow/CSM/CSM_Lambertian.frag.glsl</file>
+        <file>glsl/shadow/CSM/CSM_Lambertian.vert.glsl</file>
+        <file>glsl/deffer/gbuffer.frag.glsl</file>
+        <file>glsl/deffer/gbuffer.vert.glsl</file>
+        <file>glsl/deffer/gbuffer_debug.frag.glsl</file>
+        <file>glsl/deffer/gbuffer_debug.vert.glsl</file>
+        <file>glsl/deffer/deferred_shade.frag.glsl</file>
+        <file>glsl/deffer/deferred_shade.vert.glsl</file>
+        <file>glsl/SSAO/ssao.frag.glsl</file>
+        <file>glsl/SSAO/ssao.vert.glsl</file>
+        <file>glsl/deffer/gbuffer_viewspace.vert.glsl</file>
+        <file>glsl/SSAO/ssao_viewspace.frag.glsl</file>
+        <file>glsl/bloom/bloom.frag.glsl</file>
+        <file>glsl/bloom/bloom.vert.glsl</file>
+        <file>glsl/SSAO/ssao_blur.frag.glsl</file>
+        <file>glsl/SSAO/ssao_blur.vert.glsl</file>
+        <file>glsl/deffer/gbuffer_water.frag.glsl</file>
+        <file>glsl/deffer/gbuffer_water.vert.glsl</file>
+        <file>glsl/deffer/composite.frag.glsl</file>
+        <file>glsl/deffer/composite.vert.glsl</file>
+    </qresource>
+</RCC>
