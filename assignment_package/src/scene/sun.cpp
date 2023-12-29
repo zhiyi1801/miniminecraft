@@ -47,7 +47,7 @@ int Sun::tick()
     }
 //    curTime /= (CYCLE_TIME/600);
 //    curTime *= (CYCLE_TIME/600);
-//    curTime = 50000 * 47.f/48;
+    curTime = CYCLE_TIME * 1.f/48;
     //curTime = CYCLE_TIME / 4;
     float rotateRad = (static_cast<double>(curTime)/CYCLE_TIME) * _2_PI;
     glm::mat3 rotateMat = glm::mat3(glm::rotate(glm::mat4(), rotateRad, m_rotateAxis));

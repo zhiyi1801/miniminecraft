@@ -93,7 +93,7 @@ Chunk::Chunk(OpenGLContext* context):Drawable(context),m_blocks(), m_neighbors{{
 Chunk::Chunk(OpenGLContext* context, int x, int z) : Drawable(context), m_blocks(), minX(x), minZ(z), m_neighbors{{XPOS, nullptr}, {XNEG, nullptr}, {ZPOS, nullptr}, {ZNEG, nullptr}}, bBox(), m_idxOpaqueSize(0), m_idxTransSize(0)
 {
     std::fill_n(m_blocks.begin(), 65536, EMPTY);
-    this->m_PosColNor.reserve(512);
+    //this->m_PosColNor.reserve(512);
     //this->m_indices.reserve(512);
 }
 
